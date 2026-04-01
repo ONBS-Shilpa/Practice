@@ -1,0 +1,7 @@
+**/.svn/
+**/wc.db
+**/wc.db-journal
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
