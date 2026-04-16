@@ -71,7 +71,7 @@ SELECT ds.sitecode
          usertable@READONLYPRISM ou
    WHERE     1 = 1
          AND (CASE
-                  WHEN ph.awardtype = '226' AND ph.ctrdockey IS NOT NULL
+                  WHEN ph.awardtype = '225' AND ph.ctrdockey IS NOT NULL
                   THEN
                       (CASE
                            WHEN     SUBSTR (ph.docnum, 1, 4) = 'HHSN'
